@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:article="http://example.com/ns/article/"
+      xmlns:novel="http://example.com/ns/novel/">
+<book>
+  <article:title>"卒業論文"</article:title>
+  <article:chapter id="1" name="はじめに" pages="2" />
+  <article:chapter id="2" name="基礎理論" pages="8" />
+  <article:chapter id="3" name="実験方法" pages="6" />
+  <article:chapter id="4" name="結果と考察" pages="2" />
+  <article:chapter id="5" name="まとめ" pages="1" />
+  <article:chapter id="6" name="参考文献" pages="2" />
+  <novel:title>"昨日"</novel:title>
+  <novel:chapter id="1" name="1日のはじまり" pages="2" />
+  <novel:chapter id="2" name="朝食" pages="8" />
+  <novel:chapter id="3" name="仕事" pages="6" />
+  <novel:chapter id="4" name="帰宅後" pages="2" />
+  <novel:chapter id="5" name="新しい朝" pages="1" />
+</book>
+
+</body>

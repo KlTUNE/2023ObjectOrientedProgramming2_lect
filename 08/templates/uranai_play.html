@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='uranai.css') }}">
+    <title>占い-結果</title>
+</head>
+<body>
+    <h2 id="title">今日の運勢は</h2>
+    {% if result == 5 %}
+    <h1 id="star" style="color:red;">★★★★★</h1>
+    <p id="comment">運勢は絶好調</p>
+    {% elif result == 4 %}
+    <h1 id="star" style="color:orange;">★★★★☆</h1>
+    <p id="comment">運勢は好調</p>
+    {% elif result == 3 %}
+    <h1 id="star" style="color:yellow;">★★★☆☆</h1>
+    <p id="comment">運勢は普通</p>
+    {% elif result == 2 %}
+    <h1 id="star" style="color:green;">★★☆☆☆</h1>
+    <p id="comment">運勢は不調</p>
+    {% elif result == 1 %}
+    <h1 id="star" style="color:blue;">★☆☆☆☆</h1>
+    <p id="comment">運勢は絶不調</p>
+    {% elif result == -1 %}
+    <h1 id="star" style="color:blue;">★☆☆☆☆</h1>
+    <p id="comment">入力不備で占えませんでした</p>
+    {% endif%}
+    <button onclick="javascript:window.history.back(-1);return false;" id="return">戻る</button>
+</body>
+</html>

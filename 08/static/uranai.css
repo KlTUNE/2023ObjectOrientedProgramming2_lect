@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+  font-size: 80px;
+  margin: 20px 0;
+}
+
+form {
+  font-size: 30px;
+  width: 250px;
+  margin: 0 auto;
+  padding-top: calc(50vh - 140px - 260px);
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+}
+
+#submit {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+}
+
+#star {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 10vh;
+}
+
+#comment {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#return {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 50px;
+}
