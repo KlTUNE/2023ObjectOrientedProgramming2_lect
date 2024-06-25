@@ -1,0 +1,2 @@
+# 2023ObjectOrientedProgramming2_lect
+大学講義 オブジェクト指向プログラミング2
